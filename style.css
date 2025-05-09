@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 98vh;
+    font-size: 2rem;
+    background-color: rgb(219, 236, 250);
+}
+
+@keyframes fundo{
+    0%{
+
+    }
+    100%{
+
+    }
+}
+
+#num{
+    text-decoration: underline;
+    font-weight: 300;
+    color: rgb(40, 40, 128);
+    padding-top: 20px;
+}
+
+.btn{
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    padding: 10px 22px;
+    border-radius: 10px;
+    border-color: none;
+    border-style: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-top: 30px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+button:hover{
+    background-color: rgb(108, 165, 143);
+    color: rgba(255, 255, 255, 0.788);
+    animation: scale 1s 1 forwards;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
